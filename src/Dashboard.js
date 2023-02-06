@@ -6,28 +6,28 @@ function Dashboard() {
     const cards = [
         {
             title: "EARNINGS (MONTHLY)",
-            price: "$40,000",
+            price: "$25,000",
             theme: "primary",
 
             icon:  <FontAwesomeIcon className={`fas  fa-2x text-gray-300`} icon={faCalendar} />
         },
         {
             title: "EARNINGS (ANNUAL)",
-            price: "$215,000",
+            price: "$100,000",
             theme: "success",
 
             icon: <FontAwesomeIcon className={`fas  fa-2x text-gray-300`} icon={faDollarSign} />
         },
         {
             title: "TASKS",
-            price: "50%",
+            price: "80%",
             theme: "info",
 
             icon: <FontAwesomeIcon className={`fas  fa-2x text-gray-300`} icon={faClipboardList} />
         },
         {
             title: "PENDING REQUESTS",
-            price: "18",
+            price: "22",
             theme: "warning",
 
             icon: <FontAwesomeIcon className={`fas  fa-2x text-gray-300`} icon={faComments} />
